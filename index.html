@@ -7,6 +7,27 @@
 <html>
 <head>
   <title>Match the Bar</title>
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#252e39"
+      },
+      "button": {
+        "background": "#14a7d0"
+      }
+    },
+    "content": {
+      "message": "This website uses cookies to ensure you get the best experience on our website.",
+      "dismiss": "Got it!",
+      "link": "Learn more"
+    }
+    })});
+    </script>
+  <!-- text from cookieconsent.insites.com. Just tells users that we use cookies for now, there are also more advanced options so users can opt-in or opt-out of cookies -->
   <meta name="theme-color" content="#2e3842">
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1"
