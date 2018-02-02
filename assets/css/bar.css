@@ -1,0 +1,92 @@
+#background  {
+    padding: 12em 0 10em 0;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers.jpg);
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers.jpg);
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers.jpg);
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%
+}
+
+
+@media screen and (max-width: 1680px) {
+
+  #background {
+    padding: 10em 0 10em 0 ;
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+  #background {
+    padding: 10em 3em 10em 3em ;
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+
+  #background{
+    padding: 10em 3em 10em 3em ;
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+
+  #background {
+    padding: 10em 3em 10em 3em ;
+  }
+
+}
+
+#space {
+  padding: 5px;
+}
+
+.black_highlight {
+  color: black;
+}
+
+.blue_highlight {
+  color: #69C3F7;
+}
+
+h3 {
+  text-align: center;
+  position: relative;
+}
+
+h3 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+h3:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+h3:before {
+  left: 0;
+}
+
+#border {
+  border: 5px solid;
+  border-color: #69C3F7;
+  display: inline-block;
+  padding: 15px;
+  color: white;
+}
