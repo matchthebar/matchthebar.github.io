@@ -1,21 +1,3 @@
-@media screen and (min-width: 320px) {
-  #bar_background_image {
-    background-image: url(../../images/bar_beers.jpg);
-    background-position: center;
-    height: auto;
-    width: auto;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  #bar_background_image {
-    background-image: url(../../images/british_flag.jpg);
-    background-position: center;
-    height: auto;
-    width: auto;
-  }
-}
-
 #space {
   padding: 5px;
 }
@@ -52,14 +34,6 @@ h3:before {
 
 h3:before {
   left: 0;
-}
-
-#border {
-  border: 5px solid;
-  border-color: #69C3F7;
-  display: inline-block;
-  padding: 15px;
-  color: white;
 }
 
 .videoWrapper {
