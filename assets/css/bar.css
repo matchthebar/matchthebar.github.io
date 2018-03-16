@@ -1,56 +1,19 @@
-#background  {
-    padding: 12em 0 10em 0;
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers.jpg);
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers.jpg);
-    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers.jpg);
-    background-attachment: fixed;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: auto;
-    height: 50%;
-    width: 100%;
-}
-
-
-@media screen and (max-width: 1680px) {
-
-  #background {
-    padding: 10em 0 10em 0 ;
+@media screen and (min-width: 320px) {
+  #bar_background_image {
+    background-image: url(../../images/bar_beers.jpg);
+    background-position: center;
+    height: auto;
+    width: auto;
   }
-
-}
-
-@media screen and (max-width: 1280px) {
-
-  #background {
-    padding: 10em 3em 10em 3em ;
-  }
-
-}
-
-@media screen and (max-width: 980px) {
-
-  #background{
-    padding: 10em 3em 10em 3em ;
-  }
-
-}
-
-@media screen and (max-width: 736px) {
-
-  #background {
-    padding: 10em 3em 10em 3em ;
-  }
-
 }
 
 @media screen and (max-width: 320px) {
-
-  #background {
-    padding: 10em 3em 10em 3em ;
+  #bar_background_image {
+    background-image: url(../../images/british_flag.jpg);
+    background-position: center;
+    height: auto;
+    width: auto;
   }
-
 }
 
 #space {
