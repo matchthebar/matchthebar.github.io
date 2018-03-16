@@ -45,6 +45,19 @@
 
 }
 
+@media screen and (max-width: 320px) {
+
+  #background {
+    padding: 10em 3em 10em 3em ;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers_320.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers_320.jpg);
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers_320.jpg);
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/bar_beers_320.jpg);
+
+  }
+
+}
+
 #space {
   padding: 5px;
 }
