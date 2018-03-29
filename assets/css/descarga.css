@@ -4,10 +4,15 @@
   margin-right: auto;
 }
 
-
-
 .buttons {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#whatsapp {
+  color: #25d366;
+  display: inline-block;
+  border: 1px solid #25d366;
+  padding: 5px;
 }
