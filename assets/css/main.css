@@ -3805,3 +3805,14 @@
 	  padding: 15px;
 	  color: white;
 	}
+
+	#header_image {
+		height: 150px;
+	}
+
+	#phone_banner {
+		width: 40%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
